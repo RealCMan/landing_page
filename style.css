@@ -1,4 +1,4 @@
-/* div { border: solid red 1px; } */
+div { border: solid red 1px; }
 
 body {
     margin:0;  
@@ -24,7 +24,6 @@ body {
     padding: 0px 200px;   
 }
 
-
 .welcomebox img {
     height: auto;
     width: 385px;
@@ -35,6 +34,9 @@ body {
 .welcomebox h1 {
     font-size: 48px;
     font-weight: extra-bold;
+}
+
+.welcometext {
     color: #F9FAF8;
 }
 
@@ -60,4 +62,30 @@ button {
     border-radius: 7px;
     padding: 5px 10px;
     font-weight: bold;
+}
+
+.container-two {
+    padding: 20px 210px 50px 210px;
+    text-align: center;
+}
+
+.example {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.example img {
+    border: solid blue 2px;
+    border-radius: 5px;
+}
+
+.examplepicbox {
+    flex: 1;
+}
+
+.examplepicbox p {
+    color: grey;
+    font-size: 13px;
+    font-style: italic;
 }
