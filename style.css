@@ -1,4 +1,4 @@
-div { border: solid red 1px; }
+/* div { border: solid red 1px; } */
 
 body {
     margin:0;  
@@ -17,6 +17,21 @@ body {
     justify-content: space-between;
     align-self: center;
     padding: 0px 200px 30px 200px;
+}
+
+
+.header ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    gap: 30px;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #242424;
 }
 
 .welcomebox {
@@ -41,22 +56,9 @@ body {
     color: #F9FAF8;
 }
 
-.header ul {
-    list-style: none;
-    margin:0;
-    padding:0;
-    display: flex;
-    gap: 30px;
-}
-
-.header a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #242424;
-}
-
 button {
     width:100px;
+    height: 30px;
     background-color: blue;
     color: #F9FAF8;
     border: none;
@@ -64,6 +66,7 @@ button {
     padding: 5px 10px;
     font-weight: bold;
 }
+
 
 /* includes example picture boxes */
 .container-two {
@@ -109,4 +112,38 @@ button {
     text-align: right;
     margin-right: 30px;
     font-weight: bold;
+}
+
+/* footer */
+.container-four {
+    padding: 30px 210px 50px 210px;
+}
+
+.signupbox {
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.signuptext {
+    padding:0;
+    margin:0;
+}
+
+.signupbox button {
+    border: solid white 1px;
+    flex-basis: 30rem;
+}
+
+.signupbox p {
+    font-size:15px;
+    margin:0;
+}
+
+.signupbox h4 {
+    margin:0;
 }
