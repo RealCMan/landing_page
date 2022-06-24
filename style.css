@@ -7,7 +7,7 @@ body {
 
 /* Container which includes header AND welcomebox */
 .container-one { 
-    background-color: rgb(139, 184, 214);
+    background-color: #055c9d;
     padding: 10px 10px 30px 10px;
     flex-direction: column;
 }
@@ -31,7 +31,7 @@ body {
 .header a {
     text-decoration: none;
     font-size: 18px;
-    color: #242424;
+    color: #e5e7eb;
 }
 
 .welcomebox {
@@ -50,21 +50,24 @@ body {
 .welcomebox h1 {
     font-size: 48px;
     font-weight: extra-bold;
+    color: #F9FAF8;
 }
 
-.welcometext {
-    color: #F9FAF8;
+.welcometext p {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 button {
     width:100px;
     height: 30px;
-    background-color: blue;
+    background-color: #055c9d;
     color: #F9FAF8;
     border: none;
     border-radius: 7px;
     padding: 5px 10px;
     font-weight: bold;
+    border: solid white 1px;
 }
 
 
@@ -74,6 +77,11 @@ button {
     text-align: center;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .example {
     display: flex;
     gap: 10px;
@@ -81,7 +89,7 @@ button {
 }
 
 .example img {
-    border: solid blue 2px;
+    border: solid #055c9d 2px;
     border-radius: 5px;
     width: 200px;
 }
@@ -98,14 +106,15 @@ button {
 
 /* fancy quote part */
 .container-three {
-    background-color: lightgrey;
+    background-color: #68bbe3;
     padding: 50px 210px 50px 210px;
     text-align: center;
+    color: #003060;
 }
 
 .quotetext h2 {
-    font-weight:lighter;
     font-style: italic;
+    font-weight: lighter;
 }
 
 .quotetext p {
@@ -120,7 +129,7 @@ button {
 }
 
 .signupbox {
-    background-color: blue;
+    background-color: #055c9d;
     border-radius: 5px;
     display: flex;
     padding: 30px 100px;
@@ -131,10 +140,7 @@ button {
 .signuptext {
     padding:0;
     margin:0;
-}
-
-.signupbox button {
-    border: solid white 1px;
+    color: #F9FAF8;
 }
 
 .signupbox p {
