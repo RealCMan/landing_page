@@ -37,7 +37,8 @@ body {
 .welcomebox {
     display: flex;
     justify-content: space-between;
-    padding: 0px 200px;   
+    padding: 0px 200px;  
+    gap: 300px; 
 }
 
 .welcomebox img {
@@ -47,7 +48,7 @@ body {
     flex: 1;
 }
 
-.welcomebox h1 {
+.welcometext h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
